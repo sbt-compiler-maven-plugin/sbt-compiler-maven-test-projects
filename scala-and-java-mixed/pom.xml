@@ -22,7 +22,7 @@ under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects</groupId>
     <artifactId>scala-and-java-mixed</artifactId>
-    <version>1.0.0-beta1-SNAPSHOT</version>
+    <version>1.0.0-beta1</version>
     <packaging>jar</packaging>
 
     <name>SBT Compiler Test Projects : Scala and Java sources mixed</name>
