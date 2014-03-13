@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-Copyright 2013-2014 Grzegorz Slowikowski (gslowikowski at gmail dot com)
+Copyright 2013 Grzegorz Slowikowski (gslowikowski at gmail dot com)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -20,19 +20,19 @@ under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects</groupId>
-    <artifactId>scala-and-java-separated</artifactId>
+    <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects.sbt013</groupId>
+    <artifactId>scala-and-java-mixed</artifactId>
     <version>1.0.0-beta3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>SBT Compiler Test Projects : Scala and Java sources separated</name>
+    <name>SBT Compiler Test Projects : SBT 0.13.x : Scala and Java sources mixed</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <scala.version>2.10.2</scala.version>
-        <sbt-compiler.plugin.version>1.0.0-beta2</sbt-compiler.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta3-SNAPSHOT</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>
@@ -46,10 +46,14 @@ under the License.
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
     <build>
+        <sourceDirectory>${basedir}/src/main/scala</sourceDirectory>
+        <testSourceDirectory>${basedir}/src/test/scala</testSourceDirectory>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -71,11 +75,17 @@ under the License.
                 <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
                 <artifactId>sbt-compiler-maven-plugin</artifactId>
                 <version>${sbt-compiler.plugin.version}</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
+                        <artifactId>sbt-compiler-sbt013</artifactId>
+                        <version>${sbt-compiler.plugin.version}</version>
+                    </dependency>
+                </dependencies>
                 <executions>
                     <execution>
                         <id>default-sbt-compile</id>
                         <goals>
-                            <goal>addScalaSources</goal>
                             <goal>compile</goal>
                             <goal>testCompile</goal>
                         </goals>

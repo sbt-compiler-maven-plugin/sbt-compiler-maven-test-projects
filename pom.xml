@@ -34,10 +34,8 @@ under the License.
     </scm>
 
     <modules>
-        <module>java-only</module>
-        <module>scala-only</module>
-        <module>scala-and-java-mixed</module>
-        <module>scala-and-java-separated</module>
+        <module>sbt-0.12</module>
+        <module>sbt-0.13</module>
     </modules>
 
     <build>
