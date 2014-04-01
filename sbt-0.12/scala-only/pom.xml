@@ -32,6 +32,7 @@ under the License.
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <scala.version>2.10.0</scala.version>
+        <sbt.version>0.12.2</sbt.version>
         <sbt-compiler.plugin.version>1.0.0-beta3-SNAPSHOT</sbt-compiler.plugin.version>
     </properties>
 
@@ -75,13 +76,6 @@ under the License.
                 <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
                 <artifactId>sbt-compiler-maven-plugin</artifactId>
                 <version>${sbt-compiler.plugin.version}</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
-                        <artifactId>sbt-compiler-sbt012</artifactId>
-                        <version>${sbt-compiler.plugin.version}</version>
-                    </dependency>
-                </dependencies>
                 <executions>
                     <execution>
                         <id>default-sbt-compile</id>
