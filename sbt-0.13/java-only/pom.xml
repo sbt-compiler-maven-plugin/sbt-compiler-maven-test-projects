@@ -32,7 +32,7 @@ under the License.
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <sbt.version>0.13.0</sbt.version>
-        <sbt-compiler.plugin.version>1.0.0-beta3-SNAPSHOT</sbt-compiler.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta3</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>
