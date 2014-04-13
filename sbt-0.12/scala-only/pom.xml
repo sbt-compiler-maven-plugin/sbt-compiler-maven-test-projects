@@ -25,7 +25,7 @@ under the License.
     <version>1.0.0-beta4-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>SBT Compiler Test Projects : SBT 0.12.x : Scala sources only</name>
+    <name>SBT Compiler Test Projects : SBT 0.12 : Scala sources only</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,7 +33,8 @@ under the License.
 
         <scala.version>2.10.0</scala.version>
         <sbt.version>0.12.2</sbt.version>
-        <sbt-compiler.plugin.version>1.0.0-beta3</sbt-compiler.plugin.version>
+
+        <sbt-compiler.plugin.version>1.0.0-beta4-SNAPSHOT</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>

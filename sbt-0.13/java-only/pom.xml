@@ -25,14 +25,15 @@ under the License.
     <version>1.0.0-beta4-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>SBT Compiler Test Projects : SBT 0.13.x : Java sources only</name>
+    <name>SBT Compiler Test Projects : SBT 0.13 : Java sources only</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <sbt.version>0.13.0</sbt.version>
-        <sbt-compiler.plugin.version>1.0.0-beta3</sbt-compiler.plugin.version>
+
+        <sbt-compiler.plugin.version>1.0.0-beta4-SNAPSHOT</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>
