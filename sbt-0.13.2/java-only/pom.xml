@@ -31,7 +31,7 @@ under the License.
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <sbt.version>0.13.2-M3</sbt.version>
+        <sbt.version>0.13.2</sbt.version>
 
         <sbt-compiler.plugin.version>1.0.0-beta4-SNAPSHOT</sbt-compiler.plugin.version>
     </properties>
