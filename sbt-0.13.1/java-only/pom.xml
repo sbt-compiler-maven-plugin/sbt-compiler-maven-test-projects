@@ -33,7 +33,7 @@ under the License.
 
         <sbt.version>0.13.1</sbt.version>
 
-        <sbt-compiler.plugin.version>1.0.0-beta4-SNAPSHOT</sbt-compiler.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta4</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>
