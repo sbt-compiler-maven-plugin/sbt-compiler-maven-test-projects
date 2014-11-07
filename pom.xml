@@ -33,6 +33,10 @@ under the License.
         <url>http://sbt-compiler-maven-plugin.googlecode.com/svn/trunk/test-projects/</url>
     </scm>
 
+    <properties>
+        <sbt-compiler.plugin.version>1.0.0-beta5-SNAPSHOT</sbt-compiler.plugin.version>
+    </properties>
+
     <modules>
         <module>sbt-0.12</module>
         <module>sbt-0.13</module>
@@ -44,6 +48,12 @@ under the License.
     <build>
         <pluginManagement>
             <plugins>
+                <plugin>
+                    <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
+                    <artifactId>sbt-compiler-maven-plugin</artifactId>
+                    <version>${sbt-compiler.plugin.version}</version>
+                </plugin>
+
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-release-plugin</artifactId>
