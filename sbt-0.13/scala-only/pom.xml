@@ -34,7 +34,7 @@ under the License.
         <scala.version>2.10.2</scala.version>
         <sbt.version>0.13.0</sbt.version>
 
-        <sbt-compiler.plugin.version>1.0.0-beta5-SNAPSHOT</sbt-compiler.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta5</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>

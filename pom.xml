@@ -34,7 +34,7 @@ under the License.
     </scm>
 
     <properties>
-        <sbt-compiler.plugin.version>1.0.0-beta5-SNAPSHOT</sbt-compiler.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta5</sbt-compiler.plugin.version>
     </properties>
 
     <modules>
