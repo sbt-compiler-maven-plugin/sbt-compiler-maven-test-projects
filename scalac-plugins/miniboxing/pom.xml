@@ -79,8 +79,7 @@ under the License.
                             <goal>compile</goal>
                         </goals>
                         <configuration>
-                            <scalacOptions>-optimize</scalacOptions>
-                            <!--<scalacOptions>-optimize -P:minibox:log</scalacOptions>-->
+                            <scalacOptions>-optimize -P:minibox:log</scalacOptions>
                             <scalacPlugins>org.scala-miniboxing.plugins:miniboxing-plugin_2.11:${miniboxing.version}</scalacPlugins>
                         </configuration>
                     </execution>
