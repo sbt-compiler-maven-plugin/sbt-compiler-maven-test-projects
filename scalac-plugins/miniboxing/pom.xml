@@ -31,8 +31,8 @@ under the License.
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <scala.version>2.11.2</scala.version>
-        <sbt.version>0.13.5</sbt.version>
+        <scala.version>2.11.5</scala.version>
+        <sbt.version>0.13.7</sbt.version>
 
         <miniboxing.version>0.4-M2</miniboxing.version>
 

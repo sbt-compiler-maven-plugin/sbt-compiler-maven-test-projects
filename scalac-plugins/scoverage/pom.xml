@@ -31,10 +31,10 @@ under the License.
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <scala.version>2.11.2</scala.version>
-        <sbt.version>0.13.5</sbt.version>
+        <scala.version>2.11.5</scala.version>
+        <sbt.version>0.13.7</sbt.version>
 
-        <scoverage.version>0.99.9</scoverage.version>
+        <scoverage.version>1.0.4</scoverage.version>
 
         <sbt-compiler.plugin.version>1.0.0-beta6-SNAPSHOT</sbt-compiler.plugin.version>
     </properties>
@@ -48,7 +48,7 @@ under the License.
 
         <dependency>
             <groupId>org.scoverage</groupId>
-            <artifactId>scalac-scoverage-plugin_2.11</artifactId>
+            <artifactId>scalac-scoverage-runtime_2.11</artifactId>
             <version>${scoverage.version}</version>
         </dependency>
 
