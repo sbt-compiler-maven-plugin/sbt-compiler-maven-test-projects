@@ -36,7 +36,7 @@ under the License.
 
         <miniboxing.version>0.4-M2</miniboxing.version>
 
-        <sbt-compiler.plugin.version>1.0.0-beta6-SNAPSHOT</sbt-compiler.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta6</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>
