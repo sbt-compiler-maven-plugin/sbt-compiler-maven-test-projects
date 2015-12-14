@@ -10,4 +10,4 @@ install: mvn dependency:resolve-plugins dependency:resolve --quiet --update-snap
 script: mvn clean verify --update-snapshots --settings .travis.settings.xml -e
 
 jdk:
-  - oraclejdk6
+  - oraclejdk7
