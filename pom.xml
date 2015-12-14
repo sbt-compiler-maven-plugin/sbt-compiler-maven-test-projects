@@ -40,7 +40,7 @@ under the License.
     </ciManagement>
 
     <properties>
-        <sbt-compiler.plugin.version>1.0.0-beta6</sbt-compiler.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta7-SNAPSHOT</sbt-compiler.plugin.version>
     </properties>
 
     <modules>
