@@ -34,6 +34,11 @@ under the License.
         <tag>HEAD</tag>
     </scm>
 
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/sbt-compiler-maven-plugin/sbt-compiler-maven-test-projects</url>
+    </ciManagement>
+
     <properties>
         <sbt-compiler.plugin.version>1.0.0-beta6</sbt-compiler.plugin.version>
     </properties>
