@@ -47,7 +47,7 @@ under the License.
 
     <modules>
         <module>sbt-0.12</module>
-        <module>sbt-0.13</module>
+        <module>sbt-0.13.0</module>
         <module>sbt-0.13.1</module>
         <module>sbt-0.13.2</module>
         <module>sbt-0.13.5</module>

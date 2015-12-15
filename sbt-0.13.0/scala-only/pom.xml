@@ -20,17 +20,18 @@ under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects.sbt013</groupId>
-    <artifactId>java-only</artifactId>
+    <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects.sbt0130</groupId>
+    <artifactId>scala-only</artifactId>
     <version>1.0.0-beta7-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>SBT Compiler Test Projects : SBT 0.13 : Java sources only</name>
+    <name>SBT Compiler Test Projects : SBT 0.13.0 : Scala sources only</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+        <scala.version>2.10.2</scala.version>
         <sbt.version>0.13.0</sbt.version>
 
         <junit.version>4.12</junit.version>
@@ -43,6 +44,12 @@ under the License.
 
     <dependencies>
         <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
@@ -51,6 +58,9 @@ under the License.
     </dependencies>
 
     <build>
+        <sourceDirectory>${basedir}/src/main/scala</sourceDirectory>
+        <testSourceDirectory>${basedir}/src/test/scala</testSourceDirectory>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
