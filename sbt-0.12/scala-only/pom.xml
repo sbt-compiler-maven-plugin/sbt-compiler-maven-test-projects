@@ -34,6 +34,12 @@ under the License.
         <scala.version>2.10.0</scala.version>
         <sbt.version>0.12.2</sbt.version>
 
+        <junit.version>4.12</junit.version>
+
+        <compiler.plugin.version>3.3</compiler.plugin.version>
+        <enforcer.plugin.version>1.4.1</enforcer.plugin.version>
+        <surefire.plugin.version>2.19</surefire.plugin.version>
+
         <sbt-compiler.plugin.version>1.0.0-beta7-SNAPSHOT</sbt-compiler.plugin.version>
     </properties>
 
@@ -47,7 +53,7 @@ under the License.
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -90,7 +96,7 @@ under the License.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
-                <version>1.4.1</version>
+                <version>${enforcer.plugin.version}</version>
                 <executions>
                     <execution>
                         <id>enforce-java6-or-java7</id>
@@ -112,7 +118,7 @@ under the License.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
+                <version>${compiler.plugin.version}</version>
                 <configuration>
                     <skipMain>true</skipMain> <!-- skip compile -->
                     <skip>true</skip> <!-- skip testCompile -->
@@ -137,7 +143,7 @@ under the License.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19</version>
+                <version>${surefire.plugin.version}</version>
             </plugin>
         </plugins>
     </build>
