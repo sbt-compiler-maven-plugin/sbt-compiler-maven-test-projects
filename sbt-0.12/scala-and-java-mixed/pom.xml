@@ -40,7 +40,7 @@ under the License.
         <enforcer.plugin.version>1.4.1</enforcer.plugin.version>
         <surefire.plugin.version>2.19</surefire.plugin.version>
 
-        <sbt-compiler.plugin.version>1.0.0-beta7-SNAPSHOT</sbt-compiler.plugin.version>
+        <sbt-compiler.plugin.version>1.0.0-beta7</sbt-compiler.plugin.version>
     </properties>
 
     <dependencies>
