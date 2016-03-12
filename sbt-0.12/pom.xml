@@ -30,7 +30,7 @@ under the License.
     <artifactId>sbt012</artifactId>
     <packaging>pom</packaging>
 
-    <name>SBT Compiler Test Projects : SBT 0.12</name>
+    <name>SBT Compiler Test Projects : SBT 0.12.x</name>
 
     <modules>
         <module>java-only</module>

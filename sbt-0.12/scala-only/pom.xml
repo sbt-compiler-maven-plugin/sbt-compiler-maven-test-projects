@@ -25,7 +25,7 @@ under the License.
     <version>1.0.0-beta8-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>SBT Compiler Test Projects : SBT 0.12 : Scala sources only</name>
+    <name>SBT Compiler Test Projects : SBT 0.12.x : Scala sources only</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
