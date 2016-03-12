@@ -47,7 +47,7 @@ under the License.
 
     <modules>
         <module>sbt-0.12</module>
-        <module>sbt-0.13.9</module>
+        <module>sbt-0.13</module>
         <module>scalac-plugins</module>
     </modules>
 

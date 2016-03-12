@@ -20,12 +20,12 @@ under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects.sbt0139</groupId>
-    <artifactId>scala-only</artifactId>
+    <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects.sbt013</groupId>
+    <artifactId>scala-and-java-separated</artifactId>
     <version>1.0.0-beta8-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>SBT Compiler Test Projects : SBT 0.13.9 : Scala sources only</name>
+    <name>SBT Compiler Test Projects : SBT 0.13.x : Scala and Java sources separated</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -58,9 +58,6 @@ under the License.
     </dependencies>
 
     <build>
-        <sourceDirectory>${basedir}/src/main/scala</sourceDirectory>
-        <testSourceDirectory>${basedir}/src/test/scala</testSourceDirectory>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -80,6 +77,7 @@ under the License.
                     <execution>
                         <id>default-sbt-compile</id>
                         <goals>
+                            <goal>addScalaSources</goal>
                             <goal>compile</goal>
                             <goal>testCompile</goal>
                         </goals>

@@ -27,10 +27,10 @@ under the License.
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects</groupId>
-    <artifactId>sbt0139</artifactId>
+    <artifactId>sbt013</artifactId>
     <packaging>pom</packaging>
 
-    <name>SBT Compiler Test Projects : SBT 0.13.9</name>
+    <name>SBT Compiler Test Projects : SBT 0.13.x</name>
 
     <modules>
         <module>java-only</module>

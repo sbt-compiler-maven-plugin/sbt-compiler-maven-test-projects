@@ -20,12 +20,12 @@ under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects.sbt0139</groupId>
+    <groupId>com.google.code.sbt-compiler-maven-plugin.test-projects.sbt013</groupId>
     <artifactId>scala-and-java-mixed</artifactId>
     <version>1.0.0-beta8-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>SBT Compiler Test Projects : SBT 0.13.9 : Scala and Java sources mixed</name>
+    <name>SBT Compiler Test Projects : SBT 0.13.x : Scala and Java sources mixed</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
