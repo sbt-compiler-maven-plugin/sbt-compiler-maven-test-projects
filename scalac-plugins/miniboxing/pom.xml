@@ -36,7 +36,7 @@ under the License.
 
         <miniboxing.version>0.4-M5</miniboxing.version>
 
-        <compiler.plugin.version>3.3</compiler.plugin.version>
+        <compiler.plugin.version>3.5.1</compiler.plugin.version>
         <surefire.plugin.version>2.19</surefire.plugin.version>
 
         <sbt-compiler.plugin.version>1.0.0-beta8</sbt-compiler.plugin.version>

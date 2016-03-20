@@ -35,7 +35,7 @@ under the License.
 
         <junit.version>4.12</junit.version>
 
-        <compiler.plugin.version>3.3</compiler.plugin.version>
+        <compiler.plugin.version>3.5.1</compiler.plugin.version>
         <enforcer.plugin.version>1.4.1</enforcer.plugin.version>
         <surefire.plugin.version>2.19</surefire.plugin.version>
 
