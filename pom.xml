@@ -22,7 +22,7 @@ under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.google.code.sbt-compiler-maven-plugin</groupId>
     <artifactId>test-projects</artifactId>
-    <version>1.0.0-rc1-SNAPSHOT</version>
+    <version>1.0.0-rc1</version>
     <packaging>pom</packaging>
 
     <name>SBT Compiler Test Projects</name>
@@ -31,7 +31,7 @@ under the License.
         <connection>scm:git:git://github.com/sbt-compiler-maven-plugin/sbt-compiler-maven-test-projects.git</connection>
         <developerConnection>scm:git:git@github.com:sbt-compiler-maven-plugin/sbt-compiler-maven-test-projects.git</developerConnection>
         <url>https://github.com/sbt-compiler-maven-plugin/sbt-compiler-maven-test-projects/tree/${project.scm.tag}</url>
-        <tag>HEAD</tag>
+        <tag>test-projects-1.0.0-rc1</tag>
     </scm>
 
     <ciManagement>
