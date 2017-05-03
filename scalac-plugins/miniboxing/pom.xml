@@ -34,7 +34,7 @@ under the License.
         <scala.version>2.11.7</scala.version>
         <sbt.version>0.13</sbt.version>
 
-        <miniboxing.version>0.4-M5</miniboxing.version>
+        <miniboxing.version>0.4-M8</miniboxing.version>
 
         <compiler.plugin.version>3.5.1</compiler.plugin.version>
         <surefire.plugin.version>2.19.1</surefire.plugin.version>
